@@ -57,6 +57,6 @@ WHERE SupplierID <> 1
 ORDER BY Price DESC;
 
 4. Вывести контактные имена клиентов, кроме тех, что из France и USA:
-SELECT CustomerName
+SELECT ContactName
 FROM Customers
 WHERE Country NOT IN ('France', 'USA');
