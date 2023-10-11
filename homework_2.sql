@@ -2,7 +2,7 @@
   
 SELECT 
     Products.ProductName,
-    Products.Price * 1.06 AS PriceInUSD // курс на сегодня))
+    Products.Price * 1.06 AS PriceInUSD -- курс на сегодня))
 FROM Products
 JOIN OrderDetails ON Products.ProductID = OrderDetails.ProductID
 ORDER BY PriceInUSD DESC
