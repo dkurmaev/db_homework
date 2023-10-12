@@ -31,7 +31,7 @@ LIMIT 2;
 DELETE FROM Products
 WHERE Price < 50;
 
-4. Вывести список стран, которые поставляют напитки
+4. Вывести список стран, которые поставляют морепродукты
 
 SELECT DISTINCT
     Suppliers.Country
