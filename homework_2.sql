@@ -42,7 +42,7 @@ JOIN Suppliers ON Products.SupplierID=Suppliers.SupplierID
 JOIN Categories ON Products.CategoryID=Categories.CategoryID
 
 WHERE
-    Categories.CategoryName='Seefood'
+    Categories.CategoryName='Seafood'
 
 5. Очистить поле ContactName у всех клиентов не из China
 
