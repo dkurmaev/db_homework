@@ -29,7 +29,7 @@ LIMIT 2;
 3. Удалить товары с ценой менее 5 EUR
 
 DELETE FROM Products
-WHERE Price < 5;
+WHERE Price < 50;
 
 4. Вывести список стран, которые поставляют напитки
 
@@ -42,7 +42,7 @@ JOIN Suppliers ON Products.SupplierID=Suppliers.SupplierID
 JOIN Categories ON Products.CategoryID=Categories.CategoryID
 
 WHERE
-    Categories.CategoryName='Beverages'
+    Categories.CategoryName='Seefood'
 
 5. Очистить поле ContactName у всех клиентов не из China
 
