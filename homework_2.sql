@@ -26,7 +26,7 @@ WHERE
 ORDER BY Price DESC
 LIMIT 2;
 
-3. Удалить товары с ценой менее 5 EUR
+3. Удалить товары с ценой менее 50 EUR
 
 DELETE FROM Products
 WHERE Price < 50;
