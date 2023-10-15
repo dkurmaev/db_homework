@@ -40,6 +40,7 @@ JOIN Customers ON Orders.CustomerID = Customers.CustomerID
 JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
 JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID;
 
+===================================================================================
   
 Задача 5. Вывести сумму, на которую было отправлено товаров клиентам в Germany
 
